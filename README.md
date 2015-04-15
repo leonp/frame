@@ -1,2 +1,3 @@
-# frame
-Sketching page framework
+# Frame
+
+An index and style file to start sketching.
