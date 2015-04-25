@@ -29,8 +29,8 @@ A starting point for any project.
 
 ### Size and ryhthm
 
-`$base-line-height: 1.4;`
-`$widescreen-font-size: 125%;`
+- `$base-line-height: 1.4;`
+- `$widescreen-font-size: 125%;`
 
 ### Breakpoint
 
@@ -38,18 +38,18 @@ A starting point for any project.
 
 ### Font
 
-`$primary-font-stack: 'Fira Sans', sans-serif;`
-`$secondary-font-stack: 'Droid Serif', georgia, serif;`
+- `$primary-font-stack: 'Fira Sans', sans-serif;`
+- `$secondary-font-stack: 'Droid Serif', georgia, serif;`
 
 ### Colours
 
-`$black: #000;`
-`$dark: #444;`
-`$light: #FFF;`
-`$grey: #AAA;`
-`$lgrey: #F9F9F9;`
-`$highlight: #FFD000;`
-`$link: #0000FF;`
-`$visited: #7F7FFF;`
-`$active: #000;`
-`$hover: #FFD000;`
+- `$black: #000;`
+- `$dark: #444;`
+- `$light: #FFF;`
+- `$grey: #AAA;`
+- `$lgrey: #F9F9F9;`
+- `$highlight: #FFD000;`
+- `$link: #0000FF;`
+- `$visited: #7F7FFF;`
+- `$active: #000;`
+- `$hover: #FFD000;`
