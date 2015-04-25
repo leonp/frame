@@ -1,43 +1,73 @@
 @media screen, projection {
+  body, ul, ol, p, h1, h2, h3, h4, h5, h6, fieldset, dd, figure, figcaption, main {
+    margin: 0;
+    padding: 0; }
 
+  article, aside, dialog, figure, figcaption, footer, header, nav, section, main {
+    display: block; }
 
-	body, ul, ol, p, h1, h2, h3, h4, h5, h6, fieldset, dd, figure, figcaption, main {
-		margin: 0;
-		padding: 0;
-	}
+  body {
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #FFF;
+    color: #444; }
 
-	article, aside, dialog, figure, figcaption, footer, header, nav, section, main {
-		display: block;
-	}
+  .clearfix:before,
+  .clearfix:after {
+    content: "";
+    display: block; }
 
-	body {
-		font-size: 100%;
-		line-height: 1.4;
-		font-family: 'Fira Sans', sans-serif;
-		background-color: #FFF;
-		color: #333;
-	}
+  .clearfix:after {
+    clear: both; }
 
+  .clearfix {
+    zoom: 1; }
 
-	.clearfix:before,
-	.clearfix:after {
-		content: "";
-		display: block;
-	}
+  .hide {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px); } }
+/* End screen and projection query */
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 125%; } }
+/* End widescreen query */
+@media screen, projection {
+  .g-row {
+    clear: both;
+    overflow: hidden; } }
+/* End screen and projection query */
+@media screen and (min-width: 900px) {
+  .g-col1 {
+    width: 15%; }
 
-	.clearfix:after {
-		clear: both;
-	}
+  .g-col2 {
+    width: 32%; }
 
-	.clearfix {
-		zoom: 1;
-	}
+  .g-col3 {
+    width: 49%; }
 
-	.hide {
-		position: absolute !important;
-		clip: rect(1px 1px 1px 1px);
-		clip: rect(1px, 1px, 1px, 1px);
-	}
+  .g-col4 {
+    width: 66%; }
 
+  .g-col5 {
+    width: 83%; }
 
-} /* End screen and projection query */
+  .g-col6 {
+    width: 100%; }
+
+  .g-left {
+    float: left;
+    margin-right: 2%; }
+
+  .g-right {
+    float: right;
+    margin-left: 2%; }
+
+  .g-last {
+    margin-right: 0;
+    margin-left: 0; } }
+/* End widescreen query */
+
+/*# sourceMappingURL=style.css.map */

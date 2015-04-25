@@ -1,0 +1,52 @@
+@media screen, projection {
+
+	.g-row {
+		clear: both;
+		overflow: hidden;
+	}
+
+} /* End screen and projection query */
+
+
+@media #{$widescreen-breakpoint} {
+
+	.g-col1 {
+		width: 15%;
+	}
+
+	.g-col2 {
+		width: 32%;
+	}
+
+	.g-col3 {
+		width: 49%;
+	}
+
+	.g-col4 {
+		width: 66%;
+	}
+
+	.g-col5 {
+		width: 83%
+	}
+
+	.g-col6 {
+		width: 100%
+	}
+
+	.g-left {
+		float: left;
+		margin-right: 2%
+	}
+
+	.g-right {
+		float: right;
+		margin-left: 2%;
+	}
+
+	.g-last {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+} /* End widescreen query */

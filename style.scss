@@ -1,0 +1,39 @@
+// Variables
+
+// Size
+
+$base-line-height: 1.4;
+$widescreen-font-size: 125%;
+
+
+// Breakpoints
+
+$widescreen-breakpoint: "screen and (min-width: 900px)";
+
+
+// Fonts
+
+$primary-font-stack: 'Fira Sans', sans-serif;
+$secondary-font-stack: 'Droid Serif', georgia, serif;
+
+
+// Colours
+
+$black: #000;
+$dark: #444;
+$light: #FFF;
+$grey: #AAA;
+$lgrey: #F9F9F9;
+$highlight: #FFD000;
+$link: #0000FF;
+$visited: #7F7FFF;
+$active: #000;
+$hover: #FFD000;
+
+
+// Imports
+
+@import
+    "base",
+	"grid"
+;
