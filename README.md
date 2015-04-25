@@ -53,3 +53,36 @@ A starting point for any project.
 - `$visited: #7F7FFF;`
 - `$active: #000;`
 - `$hover: #FFD000;`
+
+## Grid
+
+### Column widths
+
+- 1: 15%
+- 2: 32%
+- 3: 49%
+- 4: 66%
+- 5: 83%
+- 6: 100%
+
+### Positioning
+
+Columns are floated left or right. Left floated columns have a 2% right margin. Right floated columns have a 2% left margin.
+
+### Usage
+
+Wrap columns in the `g-row` class.
+
+Use the `g-left` and `g-right` classes to float columns.
+
+Use `g-col1` to `g-col6` to set column width.
+
+Use `g-last` to remove the left and right margins from a column.
+
+By default grids only work when the screen reaches the widescreen breakpoint width (defined in `style.scss`). If you want to apply a grid at narrow screen widths use the `n` modifier in the class names, e.g.:
+
+- `g-n-col2`
+- `g-n-left`
+- `g-n-last`
+
+**Note**: `g-row` doesn't need the `n` modifier.
