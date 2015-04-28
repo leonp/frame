@@ -14,9 +14,10 @@ A starting point for any project.
 
 - Calls the Pure CSS buttons, form and tables modules
 - Simple CSS reset
-- Sets font size and line height
+- Sets font size and universal line height through variables
 - Sets some simple classes: .hide, .clearfix
 - Sets a simple 6 column % grid at widescreen breakpoint
+- Adds a simple navigation toggle button (using `toggle.js` and `_toggle.scss` &#8211; see `toggle.js` for details)
 
 ## SASS imports
 

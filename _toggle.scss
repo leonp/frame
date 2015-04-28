@@ -1,0 +1,24 @@
+@media screen, projection {
+
+	.toggle-button:after {
+		content: " \25BC";
+	}
+
+	.toggle-button.open:after {
+		content: " \25B2";
+	}
+
+}
+
+
+@media #{$widescreen-breakpoint} {
+
+	.toggle.hide {
+		position: relative !important;
+		clip: 0;
+	}
+
+	.toggle-button {
+		display: none;
+	}
+}

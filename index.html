@@ -19,6 +19,8 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.5.0/buttons-min.css&pure/0.5.0/forms-min.css&pure/0.5.0/tables-min.css">
 
 		<link rel="stylesheet" href="style.css">
+
+		<script src="toggle.js"></script>
 		
 		<script>
 			WebFontConfig = {
@@ -56,9 +58,11 @@
 						
 				<nav class="nav" id="nav">
 
-					<h1 class="hide">Navigation</h1>				
+					<h1 class="hide">Navigation</h1>
 
-					<ul>
+					<button class="pure-button pure-button-primary toggle-button">Navigation</button>			
+
+					<ul class="toggle hide">
 
 						<li class="nav-item"><a class="nav-link" href="/" class="active">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="/articles-and-notes">Articles &amp; notes</a></li>	
