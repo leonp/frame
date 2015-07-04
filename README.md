@@ -6,9 +6,15 @@ A starting point for any project.
 
 - SASS
 
-## Usage
+## Installation
 
 `git clone https://github.com/leonp/frame.git`
+
+## Usage
+
+You'll need to run SASS to import `_base.scss`, `_grid.scss` and `_toggle.scss` into `style.scss`, which compiles into 'style.css'
+
+Open terminal, go to the project folder and run `sass --watch input.scss:output.css` or similar.
 
 ## How it works
 
